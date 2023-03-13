@@ -1,5 +1,5 @@
 * {
-  border: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -55,8 +55,11 @@ h3 {
   font-size: 25px;
   background-color: #3882f6;
   color: white;
+  margin-top: 20px;
   padding: 20px 75px;
   border-radius: 15px;
+  outline: none;
+  border: 1px solid transparent;
 }
 
 .image {
@@ -68,19 +71,65 @@ h3 {
   width: 900px;
 }
 
+.empty-image {
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border: solid 2px #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 .information {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
 }
 
 .information h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  margin: 40px 0;
 }
 
 .random-card {
   display: flex;
   padding: 1em 13em;
+}
+
+.card {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.card p {
+  color: #a7a8a9;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  height: 500px;
+}
+
+.quote {
+  padding: 1em 10em;
+  font-size: 36px;
+  color: #1f2937;
+  padding-top: 100px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.signature {
+  display: flex;
+  justify-content: right;
+  padding: 1em 10em;
+  font-size: 36px;
+  font-weight: 500;
 }
