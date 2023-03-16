@@ -49,17 +49,26 @@ a {
 
 h3 {
   font-size: 24px;
+  opacity: 0.8;
+  font-weight: 100;
+}
+
+.button {
+  background-color: #3882f6;
+  font-size: 25px;
+  color: white;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px 75px;
 }
 
 .button-primary {
-  font-size: 25px;
-  background-color: #3882f6;
-  color: white;
-  margin-top: 20px;
-  padding: 20px 75px;
-  border-radius: 15px;
-  outline: none;
   border: 1px solid transparent;
+}
+
+.button-secondary {
+  border: 1px solid white;
 }
 
 .image {
@@ -132,4 +141,47 @@ h3 {
   padding: 1em 10em;
   font-size: 36px;
   font-weight: 500;
+}
+
+.action-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 300px;
+}
+
+.action {
+  margin: 50px;
+  padding: 80px;
+  background-color: #3882f6;
+  width: 800px;
+  height: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign-text {
+  font-weight: 100;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
 }
